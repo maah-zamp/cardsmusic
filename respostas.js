@@ -1,0 +1,8 @@
+criaCartao(
+    'TEMA',
+    'PERGUNTA',
+    'RESPOSTA'
+)
+
+
+
