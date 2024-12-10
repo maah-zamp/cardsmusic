@@ -1,7 +1,7 @@
 let musica;
 
 function preload(){
-  musica = loadSound("SUA MUSICA")
+  musica = loadSound("musica.mp3")
 }
 
 function setup(){
