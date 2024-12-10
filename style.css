@@ -1,7 +1,7 @@
 
 body {
   background: url("https://lh6.googleusercontent.com/-2B7L92MccL4/VDLrfpydAPI/AAAAAAAAExk/gH76E5BarP8/s0/fundos%252520%25252852%252529.jpg");
-  font-family: "Dosis", sans-serif;
+  font-family: "Dosis", cursive;
   background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -21,13 +21,13 @@ h1{
     margin: 0 auto;
     border-radius: 80px;
     color: purple;
-    background-color: #2D5779;
+    background-color: #6094BD;
     text-align: center;
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 700;
     padding: 0.5em 0;
-    box-shadow: 5px 4px 4px COR DA SOMBRA DO TÍTULO;
+    box-shadow: 5px 4px 4px gray;
 }
 .cartao {
   margin: 1rem 1rem;
@@ -37,7 +37,7 @@ h1{
 }
 
 .cartaoconteudo {
-  background-color: COR DO CARTÃO;
+  background-color: rgb(177,67,177);
   text-align: center;
   height: 100%;
   transform-style: preserve-3d;
@@ -47,8 +47,8 @@ h1{
 }
 
 .cartaoconteudo h3 {
-  color: COR DO TEMA;
-  border: 1px solid COR DA BORDA DO TEMA;
+  color: white;
+  border: 1px solid purple;
   box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
   text-align: left;
   padding: 0.5rem;
@@ -58,7 +58,7 @@ h1{
   border-radius: 0.6rem;
   font-size: 1vw;
   backface-visibility: hidden;
-  font-family: FONTE DO TEMA;
+  font-family:  "Dosis", cursive;
 }
 
 .cartaoconteudo p {
@@ -70,15 +70,15 @@ h1{
 }
 
 .pergunta p {
-  color: COR DA PERGUNTA;
+  color:white;
   font-weight: 500;
-  font-size: TAMANHO DA FONTE DA PERGUNTA;
+  font-size:25px;
 }
 
 .resposta p {
-  color: COR DA RESPOSTA;
+  color: black;
   font-weight: 700;
-  font-size: TAMANHO DA FONTE DA RESPOSTA;
+  font-size: 20px;
 }
 
 .cartao.active .cartaoconteudo {
@@ -96,23 +96,23 @@ h1{
 
 .resposta {
   transform: rotateY(180deg);
-  background-color: COR DO CARD QUANDO APARECER A RESPOSTA;
+  background-color: pink;
   border-radius:500px;
 }
 
 footer {
   background-color: transparent;
-  color: COR DA LETRA DO RODAPÉ;
-  background-color: COR DO RODAPÉ;
+  color: white;
+  background-color: #6094BD;
   text-align: center;
   font-weight: 700;
   padding: 0.5em 0;
-  box-shadow: 5px 4px 4px COR DA SOMBRA;
+  box-shadow: 5px 4px 4px gray;
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 2rem;
-  font-family: SUA FONTE;
+  font-family:  "Dosis", cursive;
   padding-bottom: 20px;
   
 }
@@ -126,12 +126,12 @@ footer p {
 
 footer a{
   text-decoration: none;
-  color: COR DO SEU NOME;
+  color: purple;
 }
 
 footer a:hover{
   text-decoration: underline;
-  color: COR DO SEU NOME QUANDO PASSAR A MÃO;
+  color: pink;
 }
 @media (max-width: 560px) {
   
